@@ -67,9 +67,7 @@ class Feedback extends React.Component {
                 <Section title="Please leave feedback">
                     <FeedbackOptions options={this.state}
                         onLeaveFeedback={this.onLeaveFeedback}
-                        // onGood={this.handleGood}
-                        // onNeutral={this.handleNeutral}
-                        // onBad={this.handleBad}
+                        // onGood={this.handleGood} onNeutral={this.handleNeutral} onBad={this.handleBad}
                     />
                 </Section>
 
